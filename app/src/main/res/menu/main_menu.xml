@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:vocab="http://schemas.android.com/apk/res-auto">
+
+
+        <item
+            android:id="@+id/btn_settings"
+            android:icon="@drawable/settings"
+            android:title="@string/settings_btn"
+            vocab:showAsAction="always" />
+        <item
+            android:id="@+id/btn_export"
+            android:icon="@drawable/export"
+            android:title="@string/export_btn"
+            vocab:showAsAction="always" />
+        <item
+            android:id="@+id/btn_addVocab"
+            android:icon="@drawable/plus"
+            android:title="@string/add_vocab_btn"
+            vocab:showAsAction="always" />
+</menu>
